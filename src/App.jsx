@@ -5,6 +5,7 @@ import './App.css'
 import { Canvas } from '@react-three/fiber';
 import {Environment, OrbitControls} from '@react-three/drei';
 import Scene from '../public/Scene';
+import Sky from '../public/Sky';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,6 +16,7 @@ function App() {
       <OrbitControls />
       <Suspense fallback={null}>
        <Scene />
+       <Sky />
       </Suspense>
       <Environment preset='sunset'/>
     </Canvas>
