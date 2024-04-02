@@ -16,7 +16,7 @@ function App() {
       <OrbitControls />
       <Suspense fallback={null}>
        <Scene />
-       <Sky />
+       
       </Suspense>
       <Environment preset='sunset'/>
     </Canvas>
