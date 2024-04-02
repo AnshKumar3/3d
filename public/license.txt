@@ -1,0 +1,11 @@
+Model Information:
+* title:	Simple Model Rapper Concert
+* source:	https://sketchfab.com/3d-models/simple-model-rapper-concert-970ee4873d84489ca34f54eb0c6c102b
+* author:	Wian Z (https://sketchfab.com/Vickocuy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Simple Model Rapper Concert" (https://sketchfab.com/3d-models/simple-model-rapper-concert-970ee4873d84489ca34f54eb0c6c102b) by Wian Z (https://sketchfab.com/Vickocuy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

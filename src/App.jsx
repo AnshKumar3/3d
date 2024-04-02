@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Canvas } from '@react-three/fiber';
 import {Environment, OrbitControls} from '@react-three/drei';
-import Earth from '../public/Earth';
+import scene from '../public/Scene';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,7 +14,7 @@ function App() {
       <ambientLight />
       <OrbitControls />
       <Suspense fallback={null}>
-<Earth />
+       <scene />
       </Suspense>
       <Environment preset='sunset'/>
     </Canvas>
