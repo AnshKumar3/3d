@@ -13,7 +13,11 @@ import { useGLTF } from '@react-three/drei'
 export default function Model(props) {
   const { nodes, materials } = useGLTF('/scene.gltf')
   
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 62f3b9817d1fc60ad14cc5af9f34a5a41359a1fa
 
 // Set the current stage based on the island's orientation
 

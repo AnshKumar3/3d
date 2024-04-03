@@ -10,7 +10,6 @@ import Sky from '../public/Sky';
 function App() {
   const [count, setCount] = useState(0)
   const [currentStage, setCurrentStage] = useState(1);
-  
   const HomeInfo = ({ currentStage }) => {
     if (currentStage === 1)
       return (
@@ -73,7 +72,7 @@ function App() {
   return (
    <div >
   <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
-        
+        {currentStage && <HomeInfo currentStage={currentStage} />}
       </div>
       
     <Canvas
@@ -103,7 +102,7 @@ function App() {
       </Suspense>
       <Environment preset='sunset'/>
     </Canvas>
-    </div>
+    
   )
 }
 
