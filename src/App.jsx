@@ -15,8 +15,7 @@ function App() {
       2024</h1>
       
     <Canvas
-    style={{ backgroundImage: 'url("https://cdn.wallpapersafari.com/64/91/jfSX8w.jpg")', backgroundSize:'cover'}}
-    
+    style={{ backgroundImage: 'url("https://thumbs.dreamstime.com/b/silhouettes-concert-crowd-front-bright-stage-lights-rock-space-text-93795414.jpg")'}}
      shadows
      frameloop='demand'
      dpr={[1, 2]}
