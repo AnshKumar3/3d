@@ -69,6 +69,7 @@ function App() {
   
     return null;
   };
+
   return (
    <div >
   <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
@@ -102,7 +103,7 @@ function App() {
       </Suspense>
       <Environment preset='sunset'/>
     </Canvas>
-    
+    </div>
   )
 }
 
