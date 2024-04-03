@@ -96,7 +96,7 @@ function App() {
           minPolarAngle={Math.PI / 2}/>
       <Suspense fallback={null}>
        <Scene 
-        setCurrentStage={setCurrentStage}
+      
          />
        
       </Suspense>
