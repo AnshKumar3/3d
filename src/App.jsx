@@ -13,7 +13,10 @@ function App() {
    <div >
     <h1>PARAMPARA <br></br>
       2024</h1>
+      
     <Canvas
+    style={{ backgroundImage: 'url("https://cdn.wallpapersafari.com/64/91/jfSX8w.jpg")',}}
+    
      shadows
      frameloop='demand'
      dpr={[1, 2]}
