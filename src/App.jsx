@@ -9,7 +9,8 @@ import Sky from '../public/Sky';
 
 function App() {
   const [count, setCount] = useState(0)
-  const [currentStage] = useState(1);
+  const [currentStage, setCurrentStage] = useState(1);
+  
   const HomeInfo = ({ currentStage }) => {
     if (currentStage === 1)
       return (
@@ -96,7 +97,7 @@ function App() {
           minPolarAngle={Math.PI / 2}/>
       <Suspense fallback={null}>
        <Scene 
-        
+         setCurrentStage={setCurrentStage}
          />
        
       </Suspense>
