@@ -10,7 +10,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+   <div >
+    <h1>PARAMPARA <br></br>
+      2024</h1>
     <Canvas
      shadows
      frameloop='demand'
@@ -34,7 +36,7 @@ function App() {
       </Suspense>
       <Environment preset='sunset'/>
     </Canvas>
-    </>
+    </div>
   )
 }
 
