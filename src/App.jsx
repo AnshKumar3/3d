@@ -11,10 +11,10 @@ function App() {
 
   return (
    <div >
-    <h1>PARAMPARA <br></br>
-      2024</h1>
+  
       
     <Canvas
+    
     style={{ backgroundImage: 'url("https://thumbs.dreamstime.com/b/silhouettes-concert-crowd-front-bright-stage-lights-rock-space-text-93795414.jpg")'}}
      shadows
      frameloop='demand'
@@ -24,7 +24,7 @@ function App() {
        fov: 45,
        near: 0.1,
        far: 200,
-       position: [-4, -3, 30],
+       position: [-4, -10, 30],
      }}>
       <ambientLight />
       <OrbitControls 
