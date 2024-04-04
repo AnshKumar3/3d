@@ -36,7 +36,7 @@ console.log(islandRef);
        fov: 45,
        near: 0.1,
        far: 200,
-       position: [-1.7724, -0.2638, 3.65853],
+       position: [-1.7724, -0.2638, 30],
      }}>
       <ambientLight />
       <OrbitControls 
