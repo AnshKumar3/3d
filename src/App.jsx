@@ -5,12 +5,22 @@ import './App.css'
 import { Canvas } from '@react-three/fiber';
 import {Environment, OrbitControls} from '@react-three/drei';
 import Scene from '../public/Scene';
+import { useEffect, useRef } from "react";
 import Sky from '../public/Sky';
 import { Link } from 'react-router-dom';
 
 function App() {
   const [count, setCount] = useState(0)
   const [currentStage, setCurrentStage] = useState(1);
+  const islandRef = useRef();
+   // When rotating, determine the current stage based on island's orientation
+   const rotation = 1;
+console.log(islandRef);
+  const normalizedRotation =
+  ((rotation % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
+
+// Set the current stage based on the island's orientation
+
   return (
    <div >
   
@@ -26,7 +36,7 @@ function App() {
        fov: 45,
        near: 0.1,
        far: 200,
-       position: [-4, -10, 30],
+       position: [-1.7724, -0.2638, 3.65853],
      }}>
       <ambientLight />
       <OrbitControls 
@@ -37,6 +47,8 @@ function App() {
       <Suspense fallback={null}>
        <Scene 
          setCurrentStage={setCurrentStage}
+         
+         
          />
        
       </Suspense>
@@ -46,4 +58,6 @@ function App() {
   )
 }
 
-export default App
+
+export default App;
+
